@@ -78,7 +78,6 @@ section {
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
     margin-bottom: 50px;
     margin-top: 35px;
-    padding-right: 80px;
     overflow: hidden;
 }
 
