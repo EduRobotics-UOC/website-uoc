@@ -3,7 +3,7 @@ body {
     line-height: 1.4;
     margin: 0;
     padding: 0;
-    background-image: url('bg.jpg');
+    background-image: url('img/bg.jpg');
     background-size: 765px
 }
 
@@ -14,7 +14,7 @@ nav {
 }
 
 header {
-    background: #76a1d8;
+    background: oklch(69.954% 0.09399 254.963);
     color: #fbfbfb;
     padding: 20px 0;
     text-align: center;
@@ -45,7 +45,7 @@ h2 {
 }
 
 nav {
-    background: #2163aa;
+    background: rgb(33, 99, 170);
     display: flex;
     justify-content: center;
     padding: 10px 0;
@@ -91,6 +91,7 @@ footer {
     color: black;
     border: 1px solid #000000;
     text-align: center;
+    /* padding: 12px; */
 }
 
 p {
