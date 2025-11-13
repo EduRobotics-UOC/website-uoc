@@ -4,7 +4,11 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('img/bg.jpg');
-    background-size: 765px
+    background-size: 765px;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
 }
 
 header,
@@ -25,23 +29,12 @@ header h1 {
     margin: 0;
     color: #2163aa;
     font-size: 230%;
-    /* text-shadow: -0.8px -0.8px 0 #000000,
-        0.8px -0.8px 0 #000000,
-        -0.8px 0.8px 0 #000000,
-        0.8px 0.8px 0 #000000; */
 }
 
 h2 {
     text-align: center;
     font-family: "Noto Sans Display", sans-serif;
     margin: 15px;
-    /* color: #76a1d8;
-    text-shadow: -0.8px -0.8px 0 #000000,
-        0.8px -0.8px 0 #000000,
-        -0.8px 0.8px 0 #000000,
-        0.8px 0.8px 0 #000000; 
-    letter-spacing: 1px; */
-
 }
 
 nav {
@@ -71,6 +64,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
 section {
     position: relative;
     padding: 50px 10px;
@@ -84,14 +78,14 @@ section {
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
     margin-bottom: 50px;
     margin-top: 35px;
+    overflow: hidden;
 }
 
 footer {
     background: #76a1d8;
     color: black;
     border: 1px solid #000000;
-    text-align: center;
-    /* padding: 12px; */
+    text-align:center;
 }
 
 p {
