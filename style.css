@@ -86,8 +86,7 @@ footer {
     background: #76a1d8;
     color: black;
     border: 1px solid #000000;
-    text-align: center;
-    padding: 12px;
+    text-align:center;
 }
 
 p {
@@ -108,73 +107,6 @@ hr {
     border: none;
     border-top: 1px solid black;
     margin-top: 5px;
-}
-
-#contact{
-    /* float: right; */
-}
-
-#form{
-    float: left;
-    padding-right: 10%;
-    padding-bottom: 30px;
-}
-
-form {
-    margin-top: 20px;
-    background: #fff; 
-    padding: 10px 40px 20px 15px;
-    align-content: center;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    width: 110%;
-    text-align: center;
-    transition: transform 0.2s ease;
-}
-
-form:hover {
-    transform: translateY(-5px);
-}
-
-label {
-    display: block;
-    font-weight: 600;
-    margin-bottom: 6px;
-    text-align: left;
-}
-
-input,
-textarea {
-    width: 90%;
-    padding: 10px 12px;
-    border: 2px solid #76a1d8;
-    border-radius: 10px;
-    font-size: 14px;
-    outline: none;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-    background: rgba(118, 161, 216, 0.1);
-}
-
-textarea {
-    height: 55px;
-    resize: none;
-}
-
-button {
-    margin-top: 15px;
-    padding: 10px 20px;
-    background: rgb(33, 99, 170);
-    border: none;
-    color: white;
-    border-radius: 25px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: transform 0.2s ease;
-}
-
-button:hover {
-    background: rgb(33, 99, 170);
-    transform: scale(1.05);
 }
 
 img#robot_pal,
