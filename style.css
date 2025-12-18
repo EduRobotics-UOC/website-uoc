@@ -131,11 +131,17 @@ img#insta {
     vertical-align: middle;
 }
 
+#forth{
+    width: 90px;
+    vertical-align: middle;
+}
+
 #ftc {
     width: 250px;
     margin: 30px;
     float: left;
 }
+
 
 #screw-tleft {
     width: 22px;
