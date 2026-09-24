@@ -9,6 +9,9 @@ body {
     display: grid;
     grid-template-rows: auto auto 1fr auto;
     grid-template-columns: minmax(0, 1fr);
+    ::selection{
+        background:#76a1d8;
+    }
 }
 
 header,
