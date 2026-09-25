@@ -239,3 +239,53 @@ img#insta {
 html {
     scroll-behavior: smooth;
 }
+
+.photo-gallery-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+/* CSS Grid layout - Προσαρμόζεται αυτόματα ανάλογα με το μέγεθος οθόνης */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Κάρτα εικόνας */
+.photo-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Εικόνες */
+.photo-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Διατηρεί τις αναλογίες και γεμίζει ομοιόμορφα το πλαίσιο */
+    display: block;
+}
+
+/* Λεζάντα κάτω από κάθε φωτογραφία (προαιρετικό) */
+.photo-caption {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    font-family: inherit;
+    color: #333333;
+    text-align: center;
+    background-color: #fafafa;
+    border-top: 1px solid #f0f0f0;
+}
